@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80608C25"
+    android:gravity="center">
+
+    <!-- TextView to display the moisture value -->
+
+    <!-- Button to read data from Firebase -->
+
+    <TextView
+        android:id="@+id/textViewMoisture"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#000000"
+        android:text="Moisture: --%"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRead"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextView"
+        app:layout_constraintVertical_bias="0.871" />
+
+    <Button
+        android:id="@+id/buttonRead"
+        android:layout_width="181dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="444dp"
+        android:backgroundTint="#89A850"
+        android:text="Read Moisture"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="322dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="88dp"
+        android:background="#0D280B"
+        android:backgroundTint="#4E8E06"
+        android:shadowColor="#0AFFFFFF"
+        android:text="Welcome to Soil Moisture Sensor!"
+        android:textColor="#090808"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
