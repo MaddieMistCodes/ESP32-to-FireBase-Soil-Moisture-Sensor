@@ -43,3 +43,15 @@ This is an IoT project that incorporates electronic devices, real-time databases
 
 <img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/34eacf77-d463-4eaf-8cf3-1347d207e623" />
 
+### Anroid Studio 
+Currently, the minimum soil moisture allowed is hard coded into the kotlin code on Android Studio. If you would like to adjust the min value, change the Moisture_Threshold vaariable.
+
+<img width="500" height="70" alt="image" src="https://github.com/user-attachments/assets/a03d6ff0-45f2-41c0-9d6a-f9c085f6ab2b" />
+
+
+## 📌Future Improvemnts
+To improve this project further I plan to focus on the user end. A few ideas are:
+• Not hard coding the minimum soil moisture value, and allowing the user to change this by using the GUI.
+• Adding an automated system. Once notified of low-moisture the user can press a button to water the plant.
+• Add another activity to show plant watering stats.
+• Improve the .xml file to make a more attractive user interface.
